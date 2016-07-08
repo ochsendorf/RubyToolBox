@@ -1,0 +1,23 @@
+my github stuff
+
+https://github.com/ochsendorf/RubyToolBoox.git
+
+# git initial setup
+git init
+git status
+git config --global user.name "name name name"
+git config --global user.email "email email email"
+git config --global push.default matching
+git remote add origin https://github.com/ochsendorf/RubyToolBoox.git
+git remote -v
+git push -f
+git pull origin master
+git branch --set-upstream-to=origin/master master
+
+# simple sending files
+git add .
+git commit -m "my message"
+git push
+
+# simple getting files
+git pull
